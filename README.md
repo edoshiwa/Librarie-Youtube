@@ -7,9 +7,9 @@ Navigateur supportant les requêtes PUT, DELETE (> IE6)
 ## Installation
 Télécharger les 3 fichiers et les mettre dans un dossier enfant de /www sur votre serveur PHP
 
-*library.php* gère l'API REST
-*testapi.php* est en réalité un fichier HTML, une simple interface de test du backend
-*testapi.js* s'occupe de faire le lien entre l'API et le front, il gère les requêtes AJAX et met à jour le front
+* library.php* gère l'API REST
+* testapi.php* est en réalité un fichier HTML, une simple interface de test du backend
+* testapi.js* s'occupe de faire le lien entre l'API et le front, il gère les requêtes AJAX et met à jour le front
 
 ## Utilisation
 L'API est composé de 7 fonctions détaillés ci-dessous:
@@ -23,3 +23,7 @@ L'API est composé de 7 fonctions détaillés ci-dessous:
 |/library.php|PUT|JSON|{"username":"John","title":"song of storms","v":"GpVRNZaLuRc"}|Mets à jour la librarie de en ajoutant une nouvelle vidéo à sa collection|
 |/library.php|DELETE|JSON|{"username":"John"}|Supprime la librarie de l'utilisateur spécifié|
 |/library.php|DELETE|JSON|{"username":"John","v":"GpVRNZaLuRc"}|Supprime une vidéo spécifique de la collection de l'utilisateur spécifié|
+
+L'API peut-être appellé par un navigateur récent avec des appels AJAX comme dans l'exemple fourni, ou bien directement depuis un serveur PHP avec cURL par exemple, ou encore un client REST tel que ARC.
+
+La page de test permet de tester chacune des fonctions de l'API.
