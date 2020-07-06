@@ -6,7 +6,8 @@ PHP Backend pour Youtube
 * Navigateur supportant les requêtes PUT, DELETE (> IE6).
 
 ## Installation
-Télécharger les 5 fichiers et les mettre dans un dossier enfant de /www sur votre serveur PHP.
+Télécharger les 5 fichiers et les mettre dans un dossier enfant de /www sur votre serveur PHP. Par exemple /www/ytlib/.
+(UNIX) Selon votre environnement de travail, par exemple Ubuntu, vous devez donner la permission au serveur d'écrire et de lire dans le dossier /ytlib/.
 
 * library.php gère l'API REST.
 * testapi.php est en réalité un fichier HTML, une simple interface de test du backend.
