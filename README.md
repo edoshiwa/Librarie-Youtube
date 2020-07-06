@@ -2,6 +2,7 @@
 PHP Backend pour Youtube
 ## Dépendance
 * PHP Version 7.2
+* jQuery 3.5.1
 * Navigateur supportant les requêtes PUT, DELETE (> IE6).
 
 ## Installation
