@@ -1,15 +1,16 @@
-# youtube_library
-PHP backend for a youtube playlist handler
+# Librairie Youtube
+PHP Backend pour Youtube
 ## Dépendance
-PHP Version 7.2
-Navigateur supportant les requêtes PUT, DELETE (> IE6)
+* PHP Version 7.2
+* Navigateur supportant les requêtes PUT, DELETE (> IE6).
 
 ## Installation
-Télécharger les 3 fichiers et les mettre dans un dossier enfant de /www sur votre serveur PHP
+Télécharger les 5 fichiers et les mettre dans un dossier enfant de /www sur votre serveur PHP.
 
-* library.php* gère l'API REST
-* testapi.php* est en réalité un fichier HTML, une simple interface de test du backend
-* testapi.js* s'occupe de faire le lien entre l'API et le front, il gère les requêtes AJAX et met à jour le front
+* library.php gère l'API REST.
+* testapi.php est en réalité un fichier HTML, une simple interface de test du backend.
+* testapi.js s'occupe de faire le lien entre l'API et le front, il gère les requêtes AJAX et met à jour le front.
+* (Optionnel) mark.json et john.json sont des fichiers tests aidant uniquement à accélerer la phase de test d'ajout et de suppression de libraries et de vidéos.
 
 ## Utilisation
 L'API est composé de 7 fonctions détaillés ci-dessous:
